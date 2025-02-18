@@ -1,0 +1,33 @@
+.custom-table {
+    width: 100%;
+    border-collapse: collapse; /* Ensures borders are not double */
+  }
+  
+  .custom-table th,
+  .custom-table td {
+    border: 1px solid rgba(0, 0, 0, 0.1); /* Light border for table cells */
+    padding: 10px; /* Padding inside cells */
+    text-align: left; /* Align text to the left */
+    background-color: red;
+  }
+  
+  .custom-table th {
+    background-color: rgba(0, 0, 0, 0.05); /* Light gray background for header */
+    font-weight: bold; /* Make header text bold */
+  }
+  
+  .custom-table tr:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* Change background color on hover */
+  }
+  
+  /* Pagination styles */
+  .pagination {
+    margin-top: 1rem; /* Margin on top of pagination */
+  }
+  
+  /* Error text */
+  .error-text {
+    color: red;
+    text-align: center;
+    margin: 1rem 0; /* Margin around the error text */
+  }

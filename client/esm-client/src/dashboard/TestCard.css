@@ -1,0 +1,138 @@
+/* Header section with grid alignment and shadow */
+.left__header {
+    background-color: var(--primary);
+    height: 60px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    display: grid;
+    place-items: center;
+    color: var(--secondary);
+    box-shadow: 0 0 5px var(--box-shadow);
+}
+
+/* Error headers */
+.red__header {
+    background-color: var(--error);
+}
+
+.red__index {
+    background-color: var(--error) !important;
+}
+
+.left__header svg {
+    font-size: var(--typography-sm);
+}
+
+/* Flex layout for header text */
+.left__header__text {
+    display: flex;
+    align-items: center;
+    font-size: var(--typography-sm);
+    margin: 0;
+}
+
+/* Skeleton loading styles */
+.skeleton {
+    width: 100%;
+}
+
+.single-skeleton {
+    display: flex;
+    padding: 7px 5px;
+    justify-content: space-around;
+    border-bottom: 1px solid var(--border);
+    border-left: 1px solid var(--border);
+    border-right: 1px solid var(--border);
+}
+
+.avatar-skelton {
+    flex: 0.2 !important;
+    margin-left: 2px;
+}
+
+.input-skelton {
+    flex: 1 !important;
+}
+
+.left__body__list__ul {
+    width: 100%;
+    padding-left: 0;
+}
+
+/* Test row styles with flex layout */
+.left__body {
+    background-color: var(--secondary);
+    box-shadow: 0 0 5px var(--box-shadow);
+}
+
+/* Header with flex layout and gap */
+.left__body__header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    font-weight: bold;
+    background-color: var(--secondary-light);
+    border-bottom: 2px solid var(--border);
+    margin-left: 0;
+    margin-right: 0;
+    gap: 10px; /* Adds consistent gap between columns */
+}
+
+/* Ensure each column has appropriate alignment */
+.left__body__test {
+    display: flex;
+    padding: 10px;
+    margin: 0 !important;
+    border-bottom: 1px solid var(--border);
+    border-left: 1px solid var(--border);
+    border-right: 1px solid var(--border);
+}
+
+/* Column styles for test list */
+.header__index, .header__name, .header__action, .header__time {
+    flex: 1; /* Equal flex distribution */
+    text-align: center; /* Center align text */
+}
+
+/* Adjustments for specific columns */
+.header__index {
+    flex: 0.2; /* S.No column */
+}
+
+.header__name {
+    flex: 0.5; /* Test Name column */
+}
+
+.header__action {
+    flex: 0.2; /* Action column */
+}
+
+.header__time {
+    flex: 0.2; /* Time column */
+}
+
+/* Content column styles */
+.test__index {
+    flex: 0.2; /* Keep consistent with header */
+    display: flex; 
+    justify-content: center; /* Center the content */
+}
+
+.test__name {
+    flex: 0.5; /* Keep consistent with header */
+    color: black;
+    display: flex; 
+    justify-content: center; /* Center the content */
+}
+
+.test__icon {
+    flex: 0.2; /* Keep consistent with header */
+    display: flex; 
+    justify-content: center; /* Center the content */
+}
+
+.test__time {
+    flex: 0.2; /* Keep consistent with header */
+    display: flex; 
+    justify-content: center; /* Center the content */
+}
